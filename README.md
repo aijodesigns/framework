@@ -2,7 +2,9 @@ fdp-misc-design
 ===============
 
 My current HTML5 / CSS3 Bare Bones Framework
+
 Author: Allison Stuefer
+
 Last Update: July 30th, 2014
 
 
