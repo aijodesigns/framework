@@ -1,0 +1,167 @@
+/* =============================================================================
+   Structure
+============================================================================= */
+
+html{background:#fff;}
+body{background:url(../graphics/greyzz.png);margin:0;padding:0;}
+#container{padding-bottom:30px;padding-top:30px;}
+.wrap{margin:0 auto;width:940px;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+
+/* =============================================================================
+   Typography                                                                 
+============================================================================= */
+
+body {
+font-family: 'Helvetica', 'Arial', sans-serif;
+font-size: 14px;
+color: #4d4d4f;
+}
+
+button, input, select, textarea {
+font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a,a:link,a:visited {
+color:#d60018;
+}
+
+a:hover,a:focus,a:active {
+color:#f59f45;
+}
+
+/* =============================================================================
+   Header
+============================================================================= */
+
+header ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#logo { float: left; }
+
+#primary-nav { float: right; }
+
+#primary-nav ul li {
+display: inline-block;
+padding: 0 10px;
+position: relative;
+}
+
+#primary-nav ul li a:link,
+#primary-nav ul li a:visited {
+display: block;
+}
+
+#primary-nav ul ul {
+position: absolute;
+width: auto;
+background: #eee;
+visibility: hidden;
+}
+
+#primary-nav ul ul li {
+display:block;
+padding: 5px 10px;
+}
+
+
+/* =============================================================================
+   Navigation
+============================================================================= */
+
+/* =============================================================================
+   Spotlight
+============================================================================= */
+
+/* =============================================================================
+   Main
+============================================================================= */
+
+/* =============================================================================
+   Footer
+============================================================================= */
+
+/* =============================================================================
+   Internal
+============================================================================= */
+
+#internal aside { width: 20%; }
+#internal .page-content { width: 75%; padding-right: 5%; }
+
+/* =============================================================================
+   Media Queries
+============================================================================= */
+
+@media only screen and (max-width: 940px) { 
+
+} 
+
+/* =============================================================================
+   Sticky Footer -- Comment In If Desired
+============================================================================= */
+/*
+*  {
+   margin: 0;
+   }
+
+html, body {
+   height: 100%;
+   }
+
+.wrapper {
+   min-height: 100%;
+   height: auto !important;
+   height: 100%;
+   margin: 0 auto (footer-height); /* the bottom margin is the negative value of the footer's height *//*
+   background: black url('../graphics/bg.jpg') no-repeat top center;
+   }
+
+.push   {
+   height: (footer-height); /* .push must be the same height as footer */
+   }
+
+/*Opera Fix*//*
+body:before {
+   content:"";
+   height:100%;
+   float:left;
+   width:0;
+   margin-top:-32767px;
+   }
+
+* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir{background-color:transparent;border:0;overflow:hidden;text-indent:-9999px;}
+.ir:before{content:"";display:block;height:100%;width:0;}
+.hidden{display:none!important;visibility:hidden;}
+.visuallyhidden{border:0;clip:rect(0000);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto;}
+.invisible{visibility:hidden;}
+.clearfix:before,.clearfix:after{content:" ";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+*{background:transparent!important;box-shadow:none!important;color:#000!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+.ir a:after,a[href^=javascript:]:after,a[href^=#]:after{content:"";}
+pre,blockquote{border:1px solid #999;page-break-inside:avoid;}
+thead{display:table-header-group;}
+tr,img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+@page{margin:.5cm;}
+p,h2,h3{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+}
