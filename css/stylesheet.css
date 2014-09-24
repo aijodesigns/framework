@@ -16,7 +16,7 @@ body{background:url(../graphics/greyzz.png);margin:0;padding:0;}
 
 body {
 font-family: 'Helvetica', 'Arial', sans-serif;
-font-size: 14px;
+font-size: 100%;
 color: #4d4d4f;
 }
 
@@ -31,6 +31,14 @@ color:#d60018;
 a:hover,a:focus,a:active {
 color:#f59f45;
 }
+
+h1 { font-size: 2.25em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3125em; }
+h4 { font-size: 1.125em; }
+h5 { font-size: 1em; }
+
+p { font-size: 1em; line-height: 1.2em; }
 
 /* =============================================================================
    Header
